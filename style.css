@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #555
+}
+
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.row {
+  position: relative;
+
+}
+.col-2 img {
+  width: 1263px;
+  height: 660.479px;
+}
+.col-2 h1 {
+  font-size: 40px;
+  position: absolute;
+  text-transform: inherit;
+  padding: 30px;
+  top: 250px;
+  color: #005792;
+
+}
+.col-2 p {
+  font-size: 30px;
+  position: absolute;
+  text-transform: capitalize;
+  padding: 40px;
+  top: 350px;
+  color: #325288;
+
+}
+.btn{
+  position: absolute;
+  top: 480px;
+}
+.btn{
+  left: 50px;
+  color: #0061a8;
+  background: #3edbf0;
+  padding: 10px 40px;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #8ab6d6;
+}
+.header{
+  background: radial-gradient(#51c4d3 , #ccf2f4)
+}
+.categories {
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 140px;
+  padding-right: 25px;
+}
+.col-3 img{
+  padding: 10px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+h5{
+  font-weight: normal;
+  color: #126e82;
+  margin: 0;
+}
+h4{
+  font-size: 18px;
+  color: #0061a8;
+  margin-bottom: 10px;
+}
+.price{
+  color: #28b5b5;
+  text-align: right;
+  font-size: 25px;
+}
+.titel{
+  text-align: center;
+  padding-right: 120px;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #325288;
+}
+.titel::after{
+  content: '';
+  background: #8fd6e1;
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 46.4%;
+  transform: translateX(-50%);
+}
+.rating{
+  color: #ffc93c;
+  margin: 0;
+}
+.col-4:hover{
+  transform : translateY(-5px)
+}
