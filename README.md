@@ -1,1 +1,1 @@
-# CruiseShip
+CruiseShip is a simple and responsive website designed to showcase cruise options, special offers, and travel information. Built with HTML and CSS, it features a clean design and user-friendly layout.
